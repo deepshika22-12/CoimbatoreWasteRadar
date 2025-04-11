@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coimbatore Waste Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <video autoplay muted loop id="bg-video">
+    <source src="https://www.videvo.net/videvo_files/converted/2015_08/preview/City_Timelapse_02_Videvo.mov27532.webm" type="video/webm" />
+  </video>
+
+  <div class="container">
+    <h1>🏙️ Coimbatore WasteRadar</h1>
+    <p>Track bin levels & dispatch trucks smartly!</p>
+
+    <div id="bins" class="bins"></div>
+
+    <button onclick="updateBins()">🔄 Update Bin Status</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
